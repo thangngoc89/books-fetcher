@@ -9,8 +9,7 @@ const x = new Xray({
     cleanTags: (value) => (value === "Free Medical Books") ? null : value,
   },
 })
-.delay(200, 600)
-.throttle(1, 1000)
+.throttle(10, 1000)
 
 x(
   "http://am-medicine.com/",
