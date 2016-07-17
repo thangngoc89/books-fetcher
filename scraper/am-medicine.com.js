@@ -32,5 +32,5 @@ x(
     console.log(obj)
   }
 )
-// .paginate("nav#vce-pagination > a@href")
+.paginate("nav#vce-pagination > a@href")
 // .write("./results.json")
