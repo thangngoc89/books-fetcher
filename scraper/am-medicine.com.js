@@ -29,6 +29,7 @@ x(
     if (err) {
       console.error(err)
     }
+    console.log(obj)
   }
 )
 // .paginate("nav#vce-pagination > a@href")
